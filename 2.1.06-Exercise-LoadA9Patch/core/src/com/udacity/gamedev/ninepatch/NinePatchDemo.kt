@@ -21,10 +21,8 @@ class NinePatchDemo : ApplicationAdapter() {
     lateinit var viewport: FitViewport
 
     // TODO: Add a Texture for the raw platform image
-    lateinit var platformTexture: Texture
 
     // TODO: Add a NinePatch
-    lateinit var platformNinePatch: NinePatch
 
     override fun create() {
         batch = SpriteBatch()

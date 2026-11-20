@@ -1,0 +1,198 @@
+{
+  "compressionlevel": -1,
+  "height": 45,
+  "infinite": false,
+  "layers": [
+    {
+      "draworder": "index",
+      "id": 1,
+      "name": "Default",
+      "objects": [
+        {
+          "gid": 8,
+          "height": 14.5,
+          "id": 3,
+          "name": "",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": 0,
+          "y": 692
+        },
+        {
+          "gid": 8,
+          "height": 14.5,
+          "id": 5,
+          "name": "",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": 81.9999,
+          "y": 679
+        },
+        {
+          "gid": 8,
+          "height": 14.5,
+          "id": 6,
+          "name": "",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": 167,
+          "y": 650
+        },
+        {
+          "gid": 8,
+          "height": 14.5,
+          "id": 7,
+          "name": "",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": 254,
+          "y": 627
+        },
+        {
+          "gid": 8,
+          "height": 58,
+          "id": 8,
+          "name": "",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": 337,
+          "y": 603
+        },
+        {
+          "gid": 8,
+          "height": 58,
+          "id": 9,
+          "name": "",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": 366,
+          "y": 572
+        },
+        {
+          "gid": 8,
+          "height": 29,
+          "id": 10,
+          "name": "",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": 441,
+          "y": 576
+        },
+        {
+          "gid": 8,
+          "height": 58,
+          "id": 11,
+          "name": "",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": 162,
+          "y": 495
+        },
+        {
+          "gid": 8,
+          "height": 58,
+          "id": 12,
+          "name": "",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": -593,
+          "y": 36
+        },
+        {
+          "gid": 2,
+          "height": 44,
+          "id": 2,
+          "name": "",
+          "rotation": 0,
+          "type": "enemy",
+          "visible": true,
+          "width": 29,
+          "x": -601,
+          "y": 27
+        },
+        {
+          "gid": 2,
+          "height": 44,
+          "id": 4,
+          "name": "",
+          "rotation": 0,
+          "type": "enemy",
+          "visible": true,
+          "width": 29,
+          "x": 250,
+          "y": 450,
+          "properties": [
+            {
+              "name": "platform",
+              "type": "string",
+              "value": "enemyPlatform"
+            }
+          ]
+        },
+        {
+          "gid": 8,
+          "height": 58,
+          "id": 13,
+          "name": "enemyPlatform",
+          "rotation": 0,
+          "type": "platform",
+          "visible": true,
+          "width": 58,
+          "x": 242.4,
+          "y": 500.8
+        }
+      ],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "nextlayerid": 2,
+  "nextobjectid": 14,
+  "orientation": "orthogonal",
+  "properties": [
+    {
+      "name": "pixelToWorld",
+      "type": "int",
+      "value": 80
+    },
+    {
+      "name": "sceneName",
+      "type": "string",
+      "value": "MainScene"
+    }
+  ],
+  "renderorder": "right-down",
+  "tiledversion": "1.8.6",
+  "tileheight": 16,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "source": "../tilesets/gigagal.tsj"
+    }
+  ],
+  "tilewidth": 16,
+  "type": "map",
+  "version": "1.8",
+  "width": 80
+}

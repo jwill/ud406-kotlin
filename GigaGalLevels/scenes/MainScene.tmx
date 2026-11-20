@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.6" orientation="orthogonal" renderorder="right-down" width="80" height="45" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="14">
+ <properties>
+  <property name="pixelToWorld" type="int" value="80"/>
+  <property name="sceneName" value="MainScene"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/gigagal.tsx"/>
+ <objectgroup id="1" name="Default" draworder="index">
+  <object id="3" type="platform" gid="8" x="0" y="692" width="58" height="14.5"/>
+  <object id="5" type="platform" gid="8" x="81.9999" y="679" width="58" height="14.5"/>
+  <object id="6" type="platform" gid="8" x="167" y="650" width="58" height="14.5"/>
+  <object id="7" type="platform" gid="8" x="254" y="627" width="58" height="14.5"/>
+  <object id="8" type="platform" gid="8" x="337" y="603" width="58" height="58"/>
+  <object id="9" type="platform" gid="8" x="366" y="572" width="58" height="58"/>
+  <object id="10" type="platform" gid="8" x="441" y="576" width="58" height="29"/>
+  <object id="11" type="platform" gid="8" x="162" y="495" width="58" height="58"/>
+  <object id="12" type="platform" gid="8" x="-593" y="36" width="58" height="58"/>
+  <object id="2" type="enemy" gid="2" x="-601" y="27" width="29" height="44"/>
+  <object id="4" type="enemy" gid="2" x="250" y="450" width="29" height="44">
+   <properties>
+    <property name="platform" value="enemyPlatform"/>
+   </properties>
+  </object>
+  <object id="13" name="enemyPlatform" type="platform" gid="8" x="242.4" y="500.8" width="58" height="58"/>
+ </objectgroup>
+</map>

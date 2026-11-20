@@ -1,0 +1,257 @@
+{
+  "columns": 0,
+  "grid": {
+    "height": 1,
+    "orientation": "orthogonal",
+    "width": 1
+  },
+  "margin": 0,
+  "name": "gigagal",
+  "spacing": 0,
+  "tilecount": 17,
+  "tiledversion": "1.8.6",
+  "tileheight": 58,
+  "tiles": [
+    {
+      "id": 0,
+      "type": "bullet",
+      "image": "../../assets/orig/images/bullet.png",
+      "imagewidth": 7,
+      "imageheight": 5,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "bullet"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "enemy",
+      "image": "../../assets/orig/images/enemy.png",
+      "imagewidth": 29,
+      "imageheight": 44,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "enemy"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "explosion-large",
+      "image": "../../assets/orig/images/explosion-large.png",
+      "imagewidth": 17,
+      "imageheight": 17,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "explosion-large"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "explosion-medium",
+      "image": "../../assets/orig/images/explosion-medium.png",
+      "imagewidth": 13,
+      "imageheight": 13,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "explosion-medium"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "explosion-small",
+      "image": "../../assets/orig/images/explosion-small.png",
+      "imagewidth": 9,
+      "imageheight": 9,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "explosion-small"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "jumping-left",
+      "image": "../../assets/orig/images/jumping-left.png",
+      "imagewidth": 29,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "jumping-left"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "jumping-right",
+      "image": "../../assets/orig/images/jumping-right.png",
+      "imagewidth": 30,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "jumping-right"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "platform",
+      "image": "../../assets/orig/images/platform.png",
+      "imagewidth": 58,
+      "imageheight": 58,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "platform"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "powerup",
+      "image": "../../assets/orig/images/powerup.png",
+      "imagewidth": 15,
+      "imageheight": 17,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "powerup"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "standing-left",
+      "image": "../../assets/orig/images/standing-left.png",
+      "imagewidth": 28,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "standing-left"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "standing-right",
+      "image": "../../assets/orig/images/standing-right.png",
+      "imagewidth": 31,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "standing-right"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "walk-1-left",
+      "image": "../../assets/orig/images/walk-1-left.png",
+      "imagewidth": 27,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "walk-1-left"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "walk-1-right",
+      "image": "../../assets/orig/images/walk-1-right.png",
+      "imagewidth": 30,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "walk-1-right"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "walk-2-left",
+      "image": "../../assets/orig/images/walk-2-left.png",
+      "imagewidth": 25,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "walk-2-left"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "walk-2-right",
+      "image": "../../assets/orig/images/walk-2-right.png",
+      "imagewidth": 30,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "walk-2-right"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "walk-3-left",
+      "image": "../../assets/orig/images/walk-3-left.png",
+      "imagewidth": 28,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "walk-3-left"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "walk-3-right",
+      "image": "../../assets/orig/images/walk-3-right.png",
+      "imagewidth": 31,
+      "imageheight": 35,
+      "properties": [
+        {
+          "name": "imageName",
+          "type": "string",
+          "value": "walk-3-right"
+        }
+      ]
+    }
+  ],
+  "tilewidth": 58,
+  "type": "tileset",
+  "version": "1.8"
+}

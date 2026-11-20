@@ -23,8 +23,8 @@ import com.udacity.gamedev.gigagal.entities.GigaGal
 object Assets : Disposable {
     var TAG = Assets::class.java.toString()
 
-    var gigaGalAssets:GigaGalAssets
-    private var assetManager:AssetManager
+    lateinit var gigaGalAssets:GigaGalAssets
+    private lateinit var assetManager:AssetManager
 
     fun init() {
         this.assetManager = AssetManager()

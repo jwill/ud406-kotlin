@@ -72,6 +72,7 @@ class GigaGal {
             when(jumpState) {
                 JumpState.GROUNDED -> startJump()
                 JumpState.JUMPING -> continueJump()
+                JumpState.FALLING -> Unit
             }
         } else {
             // TODO: If the jump key wasn't pressed, endJump()

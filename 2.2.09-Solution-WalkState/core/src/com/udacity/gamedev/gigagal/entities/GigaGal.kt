@@ -56,6 +56,7 @@ class GigaGal {
             when(jumpState) {
                 JumpState.GROUNDED -> startJump()
                 JumpState.JUMPING -> continueJump()
+                JumpState.FALLING -> Unit
             }
         } else {
             endJump()

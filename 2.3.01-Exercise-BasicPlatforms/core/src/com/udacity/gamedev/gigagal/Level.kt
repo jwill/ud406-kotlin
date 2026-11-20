@@ -23,13 +23,13 @@ class Level {
         gigaGal.update(delta)
     }
 
-    fun render(batch:SpriteBatch, renderer: ShapeRenderer) {
+    fun render(batch:SpriteBatch, renderer: ShapeRenderer? = null) {
 
-        renderer.begin(ShapeRenderer.ShapeType.Filled)
+        renderer?.begin(ShapeRenderer.ShapeType.Filled)
 
         // TODO: Render all platforms in the platform array
 
-        renderer.end()
+        renderer?.end()
 
         gigaGal.render(batch)
     }
